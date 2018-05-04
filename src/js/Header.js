@@ -7,6 +7,7 @@ export default()=>(
     <img src={require("./../images/header2.png")} id="headerBg"/>
     <LogoArea/>
     <NavBar opt1="للإعلان عن رقمك" opt2="المدونة" opt3="المتجر" opt4="الرئيسية"/>
+    <hr id="headerLine"/>
   </header>
 
 );

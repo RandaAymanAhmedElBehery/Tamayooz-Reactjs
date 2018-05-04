@@ -51,15 +51,34 @@
 	left: 350px;
 }
 
+#headerLine
+{
+	background-color: rgb( 255, 255, 255);
+	position: absolute;
+	top: 100px;
+	width: 1920px;
+	height: 1px;
+	z-index: 116;
+	margin-left: -6px;
+	margin-top: -8px;
+	z-index: 0;
+}
+
 #nav>ul>a>li
 {
 	text-decoration: none;
-	color: #fff;
+	color: rgba( 255, 255, 255, 0.502);
 	float: left;
 	list-style-type: none;
 	margin-right: 50px;
 	font-size: 18px;
 }
+
+a:hover {
+	/* Change the link color to #fff on hover */
+	color: red;
+}
+
 
 button
 {
@@ -159,7 +178,7 @@ hr
 	font-weight: bold;
 }
 
-#data>section>label
+#data>section>div>label
 {
 	display: inline-block;
 	font-size: 24px;
