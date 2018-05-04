@@ -10,7 +10,7 @@ import Slider from './Slider';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="TamyozCars">
         <Slider src={require('../images/Layer 3.png')} />
         <CarPhoneNumbers pr="الرئيسية > أرقام السيارات"  pl="الأنتقال لأرقام الجوال"/>
         <CarsNumbers/>
