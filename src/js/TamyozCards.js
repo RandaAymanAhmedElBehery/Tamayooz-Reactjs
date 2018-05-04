@@ -1,4 +1,17 @@
-<Slider src={require('../images/Vector Smart Object11.png')} />
+import React, { Component } from 'react';
+import Projects from '../css/TamyozCars.css';
+import CarsNumbers from './CarsNumbers';
+import Bronze from './Bronze';
+import Bronze2 from './Bronze2';
+import CarPhoneNumbers from './CarPhoneNumbers';
+import Line from './Line';
+import PlusNumbers from './PlusNumbers';
+import Slider from './Slider';
+class App extends Component {
+  render() {
+    return (
+      <div className="TamyozCards">
+        <Slider src={require('../images/Vector Smart Object11.png')} />
         <CarPhoneNumbers pr="الرئيسية > أرقام الهاتف" pl="الأنتقال لأارقام السيارات"/>
         <CarsNumbers/>
         <Bronze image_cards="57739999099"src={require('../images/Vector Smart Object copy 13.png')}/>
@@ -9,3 +22,9 @@
         <Line/>
         <PlusNumbers/>
         <Line/>
+
+      </div>
+    );
+  }
+}
+export default TamyozCards;
