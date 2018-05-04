@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/Projects.css';
+import '../css/TamyosCars.css';
 class CarsNumbers extends Component {
   render() {
     return (
