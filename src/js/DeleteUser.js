@@ -25,7 +25,7 @@ class DeleteUser extends Component {
 
     return (
       <div>
-      <UserButtons buttons={this.props.buttons}/>
+      <UserButtons buttons={this.state.buttons}/>
       <div>
           <table className="tableStyle">
           <tr>

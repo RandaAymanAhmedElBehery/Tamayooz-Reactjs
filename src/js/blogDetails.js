@@ -25,7 +25,6 @@ class BlogDetails extends Component {
                             <div className="oneMinAgo">
                                 1 min ago
                             </div>
-
                             <div class="icons" id="oneMinIcons">
                                    <ul>
                                      <li><i id="facebook" > <FaFacebookSquare color="#fff" /> </i></li>

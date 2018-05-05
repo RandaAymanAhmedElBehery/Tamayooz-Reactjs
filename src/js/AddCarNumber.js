@@ -24,7 +24,7 @@ class AddCarNumber extends Component {
   render() {
     return (
       <div>
-      <CarNumbersButtons buttons={this.props.buttons}/>
+      <CarNumbersButtons buttons={this.state.buttons}/>
       <div>
           <table className="tableStyle">
           <tr>

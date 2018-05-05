@@ -25,7 +25,7 @@ class AddUser extends Component {
 
     return (
       <div>
-      <UserButtons buttons={this.props.buttons}/>
+      <UserButtons buttons={this.state.buttons}/>
       <div>
           <table className="tableStyle">
           <tr>
@@ -106,12 +106,12 @@ class AddUser extends Component {
            </tr>
        </table>
    </div>
-   <div style="padding-left:250px;padding-right:930px;">
-       <hr style="color:grey;" />
+   <div className="table1Style">
+       <hr style={{color:'grey'}} />
    </div>
    <div>
        <br />
-       <table style="padding-left:250px;padding-right:400px;">
+       <table className="table2Style">
            <tr>
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -202,12 +202,12 @@ class AddUser extends Component {
            </tr>
        </table>
    </div>
-   <div style="padding-left:250px;padding-right:930px;">
-       <hr style="color:grey;" />
+   <div className="table1Style">
+         <hr style={{color:'grey'}} />
    </div>
    <div>
        <br />
-       <table style="padding-left:250px;padding-right:400px;">
+       <table className="table2Style">
            <tr>
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -312,13 +312,13 @@ class AddUser extends Component {
            </tr>
        </table>
    </div>
-   <div style="padding-left:250px;padding-right:930px;">
-       <hr style="color:grey;" />
+   <div className="table1Style">
+          <hr style={{color:'grey'}} />
    </div>
    <div>
        <br />
 
-       <table style="padding-left:250px;padding-right:400px;">
+       <table className="table2Style">
            <tr>
                <td>
                    &nbsp;&nbsp;   &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -372,13 +372,13 @@ class AddUser extends Component {
 
        </table>
    </div>
-   <div style="padding-left:250px;padding-right:930px;">
-       <hr style="color:grey;" />
+   <div className="table1Style">
+         <hr style={{color:'grey'}} />
    </div>
    <div>
        <br />
 
-       <table style="padding-left:250px;padding-right:400px;">
+       <table className="table2Style">
            <tr>
                <td>
                    &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -404,8 +404,6 @@ class AddUser extends Component {
            <tr>
 
                <td style={{float:'left'}}>
-                   <br />
-                   <br />
                    <button className="buttonStyle"> Add User</button>
                </td>
                <td>

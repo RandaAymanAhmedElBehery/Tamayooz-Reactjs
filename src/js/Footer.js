@@ -4,6 +4,12 @@ import TiSocialTwitter from 'react-icons/lib/ti/social-twitter';
 import FaPaperPlane from 'react-icons/lib/fa/paper-plane';
 
 class Footer extends Component {
+    /**
+     * AUTHOR: RANDA AYMAN ELBEHERY
+     * ID : 20140124
+     * THIS CLASS IS RESPONSIBLE FOR THE FOOTER OF THE WEBSITE PAGES
+     * THE FOOTER CONTAINS A BACKGROUD IMAGE, LOGO RECTANGLE WITH SOME TEXT AND SOCIAL MEDIA ICONS
+     */
  render() {
    return (
      <footer>

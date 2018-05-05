@@ -5,11 +5,21 @@ import ProfileSideMenu from './profileSideMenu';
 import ProfileSection from './profileSection';
 
 class Profile extends Component {
+    /**
+     * AUTHOR: RANDA AYMAN ELBEHERY
+     * ID : 20140124
+     * THIS CLASS IS RESPONSIBLE FOR THE PROFILE PAGE,
+     * IT SHOWS THE HEADER WHICH CONTAINS THE LOGO AND THE NAVBAR
+     * THEN THE BODY WHICH CONTAINS 2 SECTIONS, SIDE MENU AND DATA SECTION
+     * FOLLOWED BY THE FOOTER (LOGO , SOCIAL MEDIA ITEMS)
+     */
     render() {
 
+        // DECLARE ARRAY FOR SIDE MENU
         let sideMenuItems = ["البيانات الشخصية", "تغيير كلمة المرور", "عربتي", "لوحات أبوظبي", "السيارات",
             "لوحات أم القيوين", "لوحات الفجيرة", "لوحات رأس الخيمة", "لوحات الشارقة"];
 
+        // DECLARE ARRAY FOR EACH SECTION IN THE BODY
         let section1 = [["Mohamed Mohsen Abd el aal", "الاسم بالكامل"], ["N/A", "الجنسية"], ["N/A", "نوع الهوية"],
         ["N/A", "رقم الهوية"], ["العربية", "اللغة"]];
 

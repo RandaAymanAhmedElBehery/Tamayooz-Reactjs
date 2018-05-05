@@ -28,7 +28,7 @@ class UpdatePhone extends Component {
     return (
       <div>
           <Header/>
-      <PhoneButtons buttons={this.props.buttons}/>
+      <PhoneButtons buttons={this.state.buttons}/>
       <div>
           <table className="tableStyle">
           <tr>

@@ -25,7 +25,7 @@ class UpdateBlog extends Component {
 
     return (
       <div>
-      <BlogsButtons buttons={this.props.buttons}/>
+      <BlogsButtons buttons={this.state.buttons}/>
       <div>
           <table className="tableStyle">
           <tr>

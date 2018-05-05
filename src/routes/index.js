@@ -1,10 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route} from 'react-router-dom'
+//import into from './../js/into';
+//import blogDetails from './../js/blogDetails';
+//import blog from './../js/blog';
+
 import NewsLetter from './../js/NewsLetter';
 import profile from './../js/profile';
-import into from './../js/into';
-import blogDetails from './../js/blogDetails';
-import blog from './../js/blog';
 
 import TamayozCards from './../js/TamyozCards';
 import TamayozCars from './../js/TamyozCars';
@@ -30,9 +31,7 @@ export default ()=> (
 			<div>
 				<Route path="/newsLetter" component ={NewsLetter}/>
 				<Route path="/profile" component={profile}/>
-				<Route path="/into" component={into}/>
-				<Route path="/blogDetails" component={blogDetails}/>
-				<Route path="/blog" component={blog}/>
+				
 				<Route path="/tamayozCards" component={TamayozCards}/>
 				<Route path="/tamayozCars" component={TamayozCars}/>
 				<Route path="/addBlog" component={AddBlog}/>

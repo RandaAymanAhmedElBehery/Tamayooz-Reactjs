@@ -25,7 +25,7 @@ class DeletePhone extends Component {
 
     return (
       <div>
-      <PhoneButtons buttons={this.props.buttons}/>
+      <PhoneButtons buttons={this.state.buttons}/>
       <div>
           <table className="tableStyle">
           <tr>

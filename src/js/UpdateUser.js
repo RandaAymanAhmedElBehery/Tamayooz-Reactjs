@@ -28,7 +28,7 @@ class UpdateUser extends Component {
     return (
       <div>
           <Header/>
-      <UserButtons buttons={this.props.buttons}/>
+      <UserButtons buttons={this.state.buttons}/>
       <div>
           <table className="tableStyle">
           <tr>
@@ -138,12 +138,12 @@ class UpdateUser extends Component {
            </tr>
        </table>
    </div>
-   <div style="padding-left:250px;padding-right:930px;">
-       <hr style="color:grey;" />
+   <div className="table1Style">
+         <hr style={{color:'grey'}} />
    </div>
    <div>
        <br />
-       <table style={{paddingLeft:'250px' ,paddingRight:'400px'}}>
+       <table className="table2Style">
            <tr>
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -234,12 +234,12 @@ class UpdateUser extends Component {
            </tr>
        </table>
    </div>
-   <div style="padding-left:250px;padding-right:930px;">
-       <hr style="color:grey;" />
+   <div className="table1Style">
+       <hr style={{color:'grey'}} />
    </div>
    <div>
        <br />
-       <table style="padding-left:250px;padding-right:400px;">
+       <table className="table2Style">
            <tr>
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -344,13 +344,12 @@ class UpdateUser extends Component {
            </tr>
        </table>
    </div>
-   <div style="padding-left:250px;padding-right:930px;">
-       <hr style="color:grey;" />
+   <div className="table1Style">
+         <hr style={{color:'grey'}} />
    </div>
    <div>
        <br />
-
-       <table style="padding-left:250px;padding-right:400px;">
+       <table className="table2Style">
            <tr>
                <td>
                    &nbsp;&nbsp;   &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -404,13 +403,12 @@ class UpdateUser extends Component {
 
        </table>
    </div>
-   <div style="padding-left:250px;padding-right:930px;">
-       <hr style="color:grey;" />
+   <div className="table1Style">
+          <hr style={{color:'grey'}} />
    </div>
    <div>
        <br />
-
-       <table style="padding-left:250px;padding-right:400px;">
+       <table className="table2Style">
            <tr>
                <td>
                    &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

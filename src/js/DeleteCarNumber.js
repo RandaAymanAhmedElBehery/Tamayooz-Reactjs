@@ -25,7 +25,7 @@ class DeleteCarNumber extends Component {
 
     return (
       <div>
-      <CarNumbersButtons buttons={this.props.buttons}/>
+      <CarNumbersButtons buttons={this.state.buttons}/>
       <div>
           <table className="tableStyle">
           <tr>
