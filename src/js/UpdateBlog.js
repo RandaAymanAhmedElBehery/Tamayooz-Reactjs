@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './buttons.css';
-import './BlogsButtons';
+import './../css/buttons.css';
+import BlogsButtons from './BlogsButtons';
 class UpdateBlog extends Component {
   constructor(){
     super();
@@ -35,7 +35,7 @@ class UpdateBlog extends Component {
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <b className="bStyle">Update Blog</b>
                </td>
            </tr>
@@ -53,40 +53,40 @@ class UpdateBlog extends Component {
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle">Select Blog</label>
                </td>
            </tr>
               <tr>
 
-                  <td style="float:left;">
+                  <td style={{float:'left'}}>
                       <input className="inputStyle" name="blogTitle" value="N/A" />
                   </td>
 
                   <td>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </td>
-                  <td style="float:right;">
+                  <td style={{float:'right'}}>
                       <label className="lableStyle">Blog Title</label>
                   </td>
               </tr>
               <tr>
 
-                  <td style="float:left;">
+                  <td style={{float:'left'}}>
                       <input className="inputStyle" name="blogDescription" value="N/A" />
                   </td>
 
                   <td>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </td>
-                  <td style="float:right;">
+                  <td style={{float:'right'}}>
                       <label className="lableStyle">Blog Description</label>
                   </td>
               </tr>
 
               <tr>
 
-                  <td style="float:left;">
+                  <td style={{float:'left'}}>
                       <br />
                       <br />
                       <button style="color:#4b44b7; font-size:20px;background-color:white;"> Update Blog</button>

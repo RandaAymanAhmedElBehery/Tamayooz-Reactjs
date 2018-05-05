@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './buttons.css';
-import './CarNumbersButtons.css';
+import './../css/buttons.css';
+import CarNumbersButtons from './CarNumbersButtons';
 class UpdateCarNumber extends Component {
   constructor(){
     super();
@@ -34,7 +34,7 @@ class UpdateCarNumber extends Component {
                          <td>
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                          </td>
-                         <td style="float:right;">
+                         <td style={{float:'right'}}>
                              <b className="bStyle">Update Car Number</b>
                          </td>
                      </tr>
@@ -53,92 +53,92 @@ class UpdateCarNumber extends Component {
                          <td>
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                          </td>
-                         <td style="float:right;">
+                         <td style={{float:'right'}}>
                              <label className="lableStyle">Select Car Number</label>
                          </td>
                      </tr>
 
                    <tr>
 
-                    <td style="float:left;">
+                    <td style={{float:'left'}}>
                         <input ClassName="inputStyle" name="fullName" value="N/A" />
                     </td>
 
                     <td>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
-                    <td style="float:right;">
+                    <td style={{float:'right'}}>
                         <label ClassName="lableStyle"> الرقم  </label>
                     </td>
                 </tr>
                 <tr>
 
-                    <td style="float:left;">
+                    <td style={{float:'left'}}>
                         <input ClassName="inputStyle" name="fullName" value="N/A" />
                     </td>
 
                     <td>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
-                    <td style="float:right;">
+                    <td style={{float:'right'}}>
                         <label ClassName="lableStyle"> الفئه  </label>
                     </td>
                 </tr>
                 <tr>
 
-                    <td style="float:left;">
+                    <td style={{float:'left'}}>
                         <input ClassName="inputStyle" name="fullName" value="N/A" />
                     </td>
 
                     <td>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
-                    <td style="float:right;">
+                    <td style={{float:'right'}}>
                         <label ClassName="lableStyle"> الحد الادنى للمزايده</label>
                     </td>
                 </tr>
                 <tr>
 
-                    <td style="float:left;">
+                    <td style={{float:'left'}}>
                         <input ClassName="inputStyle" name="Nationality" value="N/A" />
                     </td>
 
                     <td>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
-                    <td style="float:right;">
+                    <td style={{float:'right'}}>
                         <label ClassName="lableStyle"> مزايدات</label>
                     </td>
                 </tr>
                 <tr>
 
-                    <td style="float:left;">
+                    <td style={{float:'left'}}>
                         <input ClassName="inputStyle" name="nationalType" value="N/A" />
                     </td>
 
                     <td>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
-                    <td style="float:right;">
+                    <td style={{float:'right'}}>
                         <label ClassName="lableStyle"> الوقت المتبقى </label>
                     </td>
                 </tr>
                 <tr>
 
-                    <td style="float:left;">
+                    <td style={{float:'left'}}>
                         <input ClassName="inputStyle" name="numberOfNationality" value="N/A" />
                     </td>
 
                     <td>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
-                    <td style="float:right;">
+                    <td style={{float:'right'}}>
                         <label ClassName="lableStyle"> وقت الانتهاء </label>
                     </td>
                 </tr>
                 <tr>
 
-                    <td style="float:left;">
+                    <td style={{float:'left'}}>
                         <br />
                         <br />
 

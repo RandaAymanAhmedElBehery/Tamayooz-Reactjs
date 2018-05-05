@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './buttons.css';
-import './UserButtons';
+import './../css/buttons.css';
+import UserButtons from './UserButtons';
 class DeleteUser extends Component {
   constructor(){
     super();
@@ -35,7 +35,7 @@ class DeleteUser extends Component {
                 <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
-                <td style="float:right;">
+                <td style={{float:'right'}}>
                     <b ClassName="bStyle">Delete User</b>
                 </td>
             </tr>
@@ -53,14 +53,14 @@ class DeleteUser extends Component {
                 <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
-                <td style="float:right;">
+                <td style={{float:'right'}}>
                     <label ClassName="lableStyle">Select User</label>
                 </td>
             </tr>
 
             <tr>
 
-                <td style="float:left;">
+                <td style={{float:'left'}}>
                     <br />
                     <br />
                     <button className="buttonStyle"> Delete User</button>
@@ -73,7 +73,6 @@ class DeleteUser extends Component {
                 </td>
             </tr>
         </table>
-          </table>
 
       </div>
       </div>

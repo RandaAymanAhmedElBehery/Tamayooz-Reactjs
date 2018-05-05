@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import './buttons.css';
-import './UserButtons';
+import './../css/buttons.css';
+import UserButtons from './UserButtons';
+import Header from './Header';
+import Footer from './Footer';
 class UpdateUser extends Component {
   constructor(){
     super();
@@ -25,6 +27,7 @@ class UpdateUser extends Component {
 
     return (
       <div>
+          <Header/>
       <UserButtons buttons={this.props.buttons}/>
       <div>
           <table className="tableStyle">
@@ -35,7 +38,7 @@ class UpdateUser extends Component {
                   <td>
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </td>
-                  <td style="float:right;">
+                  <td style={{float:'right'}}>
                       <b className="bStyle">Update User Info</b>
                   </td>
               </tr>
@@ -53,7 +56,7 @@ class UpdateUser extends Component {
                   <td>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </td>
-                  <td style="float:right;">
+                  <td style={{float:'right'}}>
                       <label className="lableStyle">Select User</label>
                   </td>
               </tr>
@@ -64,72 +67,72 @@ class UpdateUser extends Component {
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <b className="bStyle">معلومات شخصيه</b>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input className="inputStyle" name="fullName" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> الاسم الكامل</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input className="inputStyle" name="Nationality" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> الجنسيه</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input className="inputStyle" name="nationalType" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> نوع الهويه</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input className="inputStyle" name="numberOfNationality" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> رقم الهويه</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input className="inputStyle" name="language" value="العربيه" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> اللغه</label>
                </td>
            </tr>
@@ -140,7 +143,7 @@ class UpdateUser extends Component {
    </div>
    <div>
        <br />
-       <table style="padding-left:250px;padding-right:400px;">
+       <table style={{paddingLeft:'250px' ,paddingRight:'400px'}}>
            <tr>
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -148,84 +151,84 @@ class UpdateUser extends Component {
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <b className="bStyle"> العنوان</b>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
-                   <inputclassName="inputStyle" value="N/A" />
+               <td style={{float:'left'}}>
+                   <input className="inputStyle" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle">العنوان 1</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input className="inputStyle" name="Nationality" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> العنوان 2</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="nationalType" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle">المدينه </label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="numberOfNationality" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle">الدوله</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="language" value="العربيه" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> رقم الهاتف ارصى</label>
                </td>
            </tr>
            <tr>
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="language" value="العربيه" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> صندوق بريد</label>
                </td>
            </tr>
@@ -244,98 +247,98 @@ class UpdateUser extends Component {
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <b className="bStyle">معلومات الملف المرورى</b>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input className="inputStyle" name="fullName" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> البيان المرورى</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="Nationality" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> الرمز المرورى</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="nationalType" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> رقم اللوحه</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="numberOfNationality" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> مصدر اللوحه</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="language" value="العربيه" />
                </td>
 
                <td>
                    &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> الفئه</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="language" value="العربيه" />
                </td>
 
                <td>
                    &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> رقم رخصه القياده</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="language" value="العربيه" />
                </td>
 
                <td>
                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> جهة الاصدار</label>
                </td>
            </tr>
@@ -355,46 +358,46 @@ class UpdateUser extends Component {
                <td>
                    &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <b className="bStyle">معلومات الاتصال</b>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="fullName" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle">البريد الالكترونى </label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="Nationality" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle"> الهاتف 1 </label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <input  className="inputStyle" name="nationalType" value="N/A" />
                </td>
 
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle">الهاتف 2</label>
                </td>
            </tr>
@@ -415,7 +418,7 @@ class UpdateUser extends Component {
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <b className="bStyle">مستندات شخصيه</b>
                </td>
            </tr>
@@ -426,13 +429,13 @@ class UpdateUser extends Component {
                <td>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                </td>
-               <td style="float:right;">
+               <td style={{float:'right'}}>
                    <label className="lableStyle">ضغط هنا لاضافه مستندات جديده</label>
                </td>
            </tr>
            <tr>
 
-               <td style="float:left;">
+               <td style={{float:'left'}}>
                    <br />
                    <br />
                    <button className="buttonStyle"> Update User</button>
@@ -447,6 +450,7 @@ class UpdateUser extends Component {
           </table>
 
       </div>
+      <Footer/>
       </div>
     );
   }

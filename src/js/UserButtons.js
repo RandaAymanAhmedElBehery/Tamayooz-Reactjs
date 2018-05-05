@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './buttons.css';
+import './../css/buttons.css';
 class UserButtons extends Component {
   render() {
     let buttonsList

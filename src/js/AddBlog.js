@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import './buttons.css';
-import './BlogsButtons';
+import './../css/buttons.css';
+import BlogsButtons from './BlogsButtons';
+import Header from './Header';
+import Footer from './Footer';
 class AddBlog extends Component {
   constructor(){
     super();
@@ -25,6 +27,7 @@ class AddBlog extends Component {
 
     return (
       <div>
+          <Header/>
       <BlogsButtons buttons={this.props.buttons}/>
       <div>
           <table className="tableStyle">
@@ -35,43 +38,43 @@ class AddBlog extends Component {
                   <td>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </td>
-                  <td style="float:right;">
+                  <td style={{float:'right'}}>
                       <b className="bStyle">Add Blog</b>
                   </td>
               </tr>
               <tr>
 
-                  <td style="float:left;">
+                  <td style={{float:'left'}}>
                       <input className="inputStyle" name="blogTitle" value="N/A" />
                   </td>
 
                   <td>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </td>
-                  <td style="float:right;">
+                  <td style={{float:'right'}}>
                       <label className="lableStyle">Blog Title</label>
                   </td>
               </tr>
               <tr>
 
-                  <td style="float:left;">
+                  <td style={{float:'left'}}>
                       <input className="inputStyle" name="blogDescription" value="N/A" />
                   </td>
 
                   <td>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </td>
-                  <td style="float:right;">
+                  <td style={{float:'right'}}>
                       <label className="lableStyle">Blog Description</label>
                   </td>
               </tr>
 
               <tr>
 
-                  <td style="float:left;">
+                  <td style={{float:'left'}}>
                       <br />
                       <br />
-                      <button style="color:#4b44b7; font-size:20px;background-color:white;"> Add Blog</button>
+                      <button style={{color:'#4b44b7', fontSize:'20px' , backgroundColor:'white'}}> Add Blog</button>
                   </td>
                   <td>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -83,6 +86,7 @@ class AddBlog extends Component {
           </table>
 
       </div>
+      <Footer/>
       </div>
     );
   }

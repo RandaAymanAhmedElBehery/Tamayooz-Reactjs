@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './buttons.css';
-import './BlogsButtons';
+import './../css/buttons.css';
+import BlogsButtons from './BlogsButtons';
 class DeleteBlog extends Component {
   constructor(){
     super();
@@ -35,7 +35,7 @@ class DeleteBlog extends Component {
                 <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
-                <td style="float:right;">
+                <td style={{float:'right'}}>
                     <b ClassName="bStyle">Delete Blog</b>
                 </td>
             </tr>
@@ -53,14 +53,14 @@ class DeleteBlog extends Component {
                 <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
-                <td style="float:right;">
+                <td style={{float:'right'}}>
                     <label ClassName="lableStyle">Select Blog</label>
                 </td>
             </tr>
 
             <tr>
 
-                <td style="float:left;">
+                <td style={{float:'left'}}>
                     <br />
                     <br />
                     <button className="buttonStyle"> Delete Blog</button>
@@ -73,7 +73,7 @@ class DeleteBlog extends Component {
                 </td>
             </tr>
         </table>
-          </table>
+        
 
       </div>
       </div>

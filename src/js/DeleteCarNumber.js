@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './buttons.css';
-import './CarNumbersButtons';
+import './../css/buttons.css';
+import CarNumbersButtons from './CarNumbersButtons';
 class DeleteCarNumber extends Component {
   constructor(){
     super();
@@ -35,7 +35,7 @@ class DeleteCarNumber extends Component {
                 <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
-                <td style="float:right;">
+                <td style={{float:'right'}}>
                     <b ClassName="bStyle">Delete Car Number</b>
                 </td>
             </tr>
@@ -53,14 +53,14 @@ class DeleteCarNumber extends Component {
                 <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
-                <td style="float:right;">
+                <td style={{float:'right'}}>
                     <label ClassName="lableStyle">Select Car Number</label>
                 </td>
             </tr>
 
             <tr>
 
-                <td style="float:left;">
+                <td style={{float:'left'}}>
                     <br />
                     <br />
                     <button className="buttonStyle"> Delete Car Number</button>
@@ -73,7 +73,6 @@ class DeleteCarNumber extends Component {
                 </td>
             </tr>
         </table>
-          </table>
 
       </div>
       </div>

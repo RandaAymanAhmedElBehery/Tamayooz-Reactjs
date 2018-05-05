@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './buttons.css';
-import './PhoneButtons';
+import './../css/buttons.css';
+import PhoneButtons from './PhoneButtons';
 class DeletePhone extends Component {
   constructor(){
     super();
@@ -35,7 +35,7 @@ class DeletePhone extends Component {
                 <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
-                <td style="float:right;">
+                <td style={{float:'right'}}>
                     <b ClassName="bStyle">Delete Phone</b>
                 </td>
             </tr>
@@ -53,14 +53,14 @@ class DeletePhone extends Component {
                 <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
-                <td style="float:right;">
+                <td style={{float:'right'}}>
                     <label ClassName="lableStyle">Select Phone</label>
                 </td>
             </tr>
 
             <tr>
 
-                <td style="float:left;">
+                <td style={{float:'left'}}>
                     <br />
                     <br />
                     <button className="buttonStyle"> Delete Phone</button>
@@ -73,9 +73,7 @@ class DeletePhone extends Component {
                 </td>
             </tr>
         </table>
-          </table>
-
-      </div>
+          </div>
       </div>
     );
   }

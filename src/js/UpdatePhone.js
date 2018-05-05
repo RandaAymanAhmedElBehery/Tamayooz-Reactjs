@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import './buttons.css';
-import './PhoneButtons';
+import './../css/buttons.css';
+import PhoneButtons from'./PhoneButtons';
+import Header from './Header';
+import Footer from './Footer';
 class UpdatePhone extends Component {
   constructor(){
     super();
@@ -25,6 +27,7 @@ class UpdatePhone extends Component {
 
     return (
       <div>
+          <Header/>
       <PhoneButtons buttons={this.props.buttons}/>
       <div>
           <table className="tableStyle">
@@ -35,7 +38,7 @@ class UpdatePhone extends Component {
                             <td>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             </td>
-                            <td style="float:right;">
+                            <td style={{float:'right'}}>
                                 <b className="bStyle">Update Phone Number</b>
                             </td>
                         </tr>
@@ -54,89 +57,90 @@ class UpdatePhone extends Component {
                             <td>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             </td>
-                            <td style="float:right;">
+                            <td style={{float:'right'}}>
                                 <label className="lableStyle">Select Number</label>
                             </td>
                         </tr>
-                      <td style="float:left;">
+                        <tr>
+                      <td style={{float:'left'}}>
                           <input className="inputStyle" name="fullName" value="N/A" />
                       </td>
 
                       <td>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </td>
-                      <td style="float:right;">
+                      <td style={{float:'right'}}>
                           <label className="lableStyle">الرقم</label>
                       </td>
                   </tr>
                   <tr>
 
-                      <td style="float:left;">
+                      <td style={{float:'left'}}>
                           <input className="inputStyle" name="fullName" value="N/A" />
                       </td>
 
                       <td>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </td>
-                      <td style="float:right;">
+                      <td style={{float:'right'}}>
                           <label className="lableStyle"> الفئه  </label>
                       </td>
                   </tr>
                   <tr>
 
-                      <td style="float:left;">
+                      <td style={{float:'left'}}>
                           <input className="inputStyle" name="fullName" value="N/A" />
                       </td>
 
                       <td>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </td>
-                      <td style="float:right;">
+                      <td style={{float:'right'}}>
                           <label className="lableStyle"> الحد الادنى للمزايده</label>
                       </td>
                   </tr>
                   <tr>
 
-                      <td style="float:left;">
+                      <td style={{float:'left'}}>
                           <input className="inputStyle" name="Nationality" value="N/A" />
                       </td>
 
                       <td>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </td>
-                      <td style="float:right;">
+                      <td style={{float:'right'}}>
                           <label className="lableStyle"> مزايدات</label>
                       </td>
                   </tr>
                   <tr>
 
-                      <td style="float:left;">
+                      <td style={{float:'left'}}>
                           <input className="inputStyle" name="nationalType" value="N/A" />
                       </td>
 
                       <td>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </td>
-                      <td style="float:right;">
+                      <td style={{float:'right'}}>
                           <label className="lableStyle"> الوقت المتبقى </label>
                       </td>
                   </tr>
                   <tr>
 
-                      <td style="float:left;">
+                      <td style={{float:'left'}}>
                           <input className="inputStyle" name="numberOfNationality" value="N/A" />
                       </td>
 
                       <td>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </td>
-                      <td style="float:right;">
+                      <td style={{float:'right'}}>
                           <label className="lableStyle"> وقت الانتهاء </label>
                       </td>
                   </tr>
                   <tr>
 
-                      <td style="float:left;">
+                      <td style={{float:'left'}}>
                           <br />
                           <br />
                           <button className="buttonStyle"> Update Phone Number</button>
@@ -151,6 +155,7 @@ class UpdatePhone extends Component {
           </table>
 
       </div>
+      <Footer/>
       </div>
     );
   }
