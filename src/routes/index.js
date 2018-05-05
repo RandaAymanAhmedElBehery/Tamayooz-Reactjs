@@ -1,6 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route} from 'react-router-dom'
+
 import NewsLetter from './../js/NewsLetter';
+import profile from './../js/profile';
+import TamayozCards from './../js/TamyozCards';
+import TamayozCars from './../js/TamyozCars';
+
 import AddBlog from './../js/AddBlog';
 import AddCarNumber from './../js/AddCarNumber';
 import AddPhone from './../js/AddPhone';
@@ -16,9 +21,6 @@ import DeleteCarNumber from './../js/DeleteCarNumber';
 import DeletePhone from './../js/DeletePhone';
 import DeleteUser from './../js/DeleteUser';
 
-import profile from './../js/profile';
-import TamayozCards from './../js/TamyozCards';
-import TamayozCars from './../js/TamyozCars';
 
 export default ()=> (
 		<BrowserRouter>
