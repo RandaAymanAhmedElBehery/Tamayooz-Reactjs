@@ -5,6 +5,14 @@ body {
     font-family: BahijTheSansArabic;
 
 }
+#header {
+    height: 1300px;
+    background-image: url("../images/Vector Smart Object copy 3.jpg");
+    background-size: 100% 1676px;
+    position: relative;
+
+}
+
 .container {
     width: 1220px;
     margin: auto;
@@ -189,7 +197,6 @@ body {
 }
 .PlusNumbers .container {
     position: absolute;
-    margin-top:
 }
 
 .plus {

@@ -8,12 +8,16 @@ import Line from './Line';
 import PlusNumbers from './PlusNumbers';
 import Slider from './Slider';
 import Footer from './Footer';
+import Header from './Header';
 
 class TamyozCards extends Component {
   render() {
     return (
       <div className="TamyozCards">
-        <Slider src={require('../images/Vector Smart Object11.png')} />
+        <div id="header">
+          <Header />
+          <Slider src={require('../images/Vector Smart Object11.png')} />
+        </div>
         <CarPhoneNumbers pr="الرئيسية > أرقام الهاتف" pl="الأنتقال لأارقام السيارات"/>
         <CarsNumbers/>
         <Bronze image_cards="57739999099"src={require('../images/Vector Smart Object copy 13.png')}/>
