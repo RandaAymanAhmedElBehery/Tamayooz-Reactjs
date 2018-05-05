@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './../css/profile.css';
+import './../css/header.css';
 
 class LogoArea extends Component {
   render() {

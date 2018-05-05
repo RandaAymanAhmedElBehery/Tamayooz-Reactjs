@@ -24,7 +24,7 @@ class Profile extends Component {
 
         return (
 
-            <div>
+            <div id="profileBody">
                 <Header />
                 <ProfileSideMenu menuItems={sideMenuItems} />
                 <aside id="data">

@@ -7,7 +7,9 @@ import CarPhoneNumbers from './CarPhoneNumbers';
 import Line from './Line';
 import PlusNumbers from './PlusNumbers';
 import Slider from './Slider';
-class App extends Component {
+import Footer from './Footer';
+
+class TamyozCards extends Component {
   render() {
     return (
       <div className="TamyozCards">
@@ -22,7 +24,7 @@ class App extends Component {
         <Line/>
         <PlusNumbers/>
         <Line/>
-
+        <Footer />
       </div>
     );
   }
