@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/TamyosCars.css';
+import './../css/TamyozCars.css';
 var cl1="image image-cards";
 
 class Bronze2 extends Component {
@@ -12,9 +12,9 @@ class Bronze2 extends Component {
               السعر الحالي
               <br/> 1000 ريال
           </div>
-          <div className={cl1} id={this.props.i}>
-            {this.props.image_cards}
-            <img src={this.props.src}/>
+          <div id={this.props.i}>
+            <img className="image" src={this.props.src}/>
+            <p className="image-cards">{this.props.image_cards}</p>
           </div>
           <div className="carCategoryName" id={this.props.c}>برونزي</div>
           <div className="bronze_footer" id={this.props.br}>
