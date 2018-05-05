@@ -5,9 +5,10 @@
     src: url(../fonts/Bahij_TheSansArabic-Plain.ttf);
 
 }
-*{
+/**{
 	color: white;
 }
+*/
 
 .thanks{
 
@@ -38,7 +39,7 @@
 }
 
 
-#headerLogoArea{
+#logoArea{
 
 	background-color: white;
 	width: 122px;
@@ -63,20 +64,18 @@
 
 #t{
 	margin-left: 260px;
-	margin-top: -50px;
 
 
 }
 .p{
 	color: rgb( 193, 193, 193 );
 	font-family: ar;
-	
-	
+	margin-bottom: 10px;
 }
 #pa{
-	padding-top:35px;
-	width: 600px;
-	height: 300px;
+	padding:35px 75px;
+	width: 450px;
+	height: 230px;
 	margin-left: 300px;	
 	text-align: center;
 }
@@ -87,7 +86,7 @@
 	height: 158px;
 	margin-top: 0px;
 	text-align: center;
-	color: red;
+	color: white;
 }
 
 #ta{
@@ -103,7 +102,7 @@
 	height: 0px;
 	width:15px;
 	border-bottom:hidden; 
-	margin-top:-10px;
+	margin-top:15px;
 }
 
 #social
@@ -114,4 +113,9 @@
 #twitter{
 	margin-right:5px;
 	margin-left:5px;
+}
+
+i
+{
+	color:white;
 }

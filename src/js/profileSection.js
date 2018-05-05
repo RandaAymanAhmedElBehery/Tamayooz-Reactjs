@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ProfileSectionItem from './profileSectionItem';
+import './../css/profile.css';
 
 class ProfileSection extends Component {
     render() {

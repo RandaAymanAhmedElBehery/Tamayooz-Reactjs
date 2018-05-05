@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route} from 'react-router-dom'
-import profile from './../js/profile';
 import NewsLetter from './../js/NewsLetter';
 import NewsLetterHeader from './../js/NewsLetterHeader'
+import profile from './../js/profile';
 
 export default ()=> (
 		<BrowserRouter>

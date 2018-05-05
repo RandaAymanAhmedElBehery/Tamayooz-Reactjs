@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './../css/newsletter.css';
 
 class NewsLetterParagraph extends Component {
   render() {
