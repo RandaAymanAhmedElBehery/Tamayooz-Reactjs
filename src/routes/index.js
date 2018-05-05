@@ -41,8 +41,7 @@ export default ()=> (
 				<Route path="/deleteCarNumber" component={DeleteCarNumber}/>
 				<Route path="/deletePhone" component={DeletePhone}/>
 				<Route path="/deleteUser" component={DeleteUser}/>
-				
-
+			
 			</div>
 		</BrowserRouter>
 );

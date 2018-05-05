@@ -62,7 +62,7 @@ body {
     text-align: right;
     font-size: 24px;
     position: relative;
-    left: 240px;
+    left: 160px;
     top: 70px;
     font-weight: bold;
     color: rgb(248, 43, 71);
@@ -131,6 +131,8 @@ body {
     font-family: BahijTheSansArabic;
     color: rgb(76, 68, 183);
     font-weight: bold;
+    padding-right: 5px;
+    float: right;
 }
 .bronze_footer{
     width: 1220px;
