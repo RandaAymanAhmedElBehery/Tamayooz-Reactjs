@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import ProfileSideMenu from './profileSideMenu';
 import ProfileSection from './profileSection';
-
 
 class Profile extends Component {
     render() {
@@ -24,7 +24,7 @@ class Profile extends Component {
 
         return (
 
-            <div>
+            <div id="profileBody">
                 <Header />
                 <ProfileSideMenu menuItems={sideMenuItems} />
                 <aside id="data">
@@ -41,6 +41,7 @@ class Profile extends Component {
                         <a href="#">اضغط هنا لإضافة مستندات جديدة</a>
                     </section>
                 </aside>
+                <Footer />
             </div>
 
         );

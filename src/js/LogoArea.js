@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './../css/header.css';
 
 class LogoArea extends Component {
   render() {
     return (
-        <div className="logoArea" id="headerLogoArea">
-          <img src={require("./../images/logo.png")} className="logo" id="logo" />
+        <div className="logoArea" id={this.props.id}>
+          <img src={require("./../images/logo.png")} className="logo" />
         </div>
     );
   }
