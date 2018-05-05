@@ -17,6 +17,9 @@ import DeletePhone from './../js/DeletePhone';
 import DeleteUser from './../js/DeleteUser';
 
 import profile from './../js/profile';
+import into from './../js/into';
+import blogDetails from './../js/blogDetails';
+
 import TamayozCards from './../js/TamyozCards';
 import TamayozCars from './../js/TamyozCars';
 
@@ -39,7 +42,8 @@ export default ()=> (
 				<Route path="/deleteCarNumber" component={DeleteCarNumber}/>
 				<Route path="/deletePhone" component={DeletePhone}/>
 				<Route path="/deleteUser" component={DeleteUser}/>
-				
+				<Route path="/into" component={into}/>
+				<Route path="/blogDetails" component={blogDetails}/>
 
 			</div>
 		</BrowserRouter>
