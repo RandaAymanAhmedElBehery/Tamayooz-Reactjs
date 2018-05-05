@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './../css/newsletter.css';
 
+// a component that has a text descripe Tamayooz history
 class NewsLetterParagraph extends Component {
   render() {
     return (
 
+    
     <div id="pa">
 	<p className="p">	الصناعة. وكان أبجد هوز نص الدمية القياسية في هذه الصناعة من أي </p>
 	<p className="p">وقت مضى منذ 1500s، عندما أخذت طابعة غير معروفة المطبخ من </p>
