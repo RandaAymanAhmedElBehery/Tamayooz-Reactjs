@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/TamyosCars.css';
+import './../css/TamyozCars.css';
 var cl1="image image-cards";
 
 class Bronze2 extends Component {
